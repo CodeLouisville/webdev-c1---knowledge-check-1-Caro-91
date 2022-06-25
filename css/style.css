@@ -279,6 +279,20 @@ section p {
 
 .mobile-nav span a:hover {
     color: #74b44a;
+}h4{font: size 48px; 
+    ; margin: 0%;
+    line-height: 20px;
+display: block;
+text-align: center;}
+.contact-container{ background-color:#232443;
+    color: #F1F1F1;
+    margin: 0;
+    display: block;
+    text-align: center;
+  padding-inline: 20px;
+    padding-inline: 10px;
+    
+    grid-template-rows: 2 max-content;
 }
 
 footer {
