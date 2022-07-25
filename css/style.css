@@ -48,7 +48,9 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
     height: 80vh;
@@ -61,12 +63,14 @@ body {
     max-width: 1000px;
     text-align: center;
     padding: 24px;
-    margin: 0 auto;
-}
+    margin: auto;
+ align-items: center;
+
+ }
 
 .aboutme-container {
     background: #29326a;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     padding: 48px 0;
@@ -178,7 +182,7 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
     border: 2px solid #666666;
 }
@@ -275,6 +279,20 @@ section p {
 
 .mobile-nav span a:hover {
     color: #74b44a;
+}h4{font: size 48px; 
+    ; margin: 0%;
+    line-height: 20px;
+display: block;
+text-align: center;}
+.contact-container{ background-color:#232443;
+    color: #F1F1F1;
+    margin: 0;
+    display: block;
+    text-align: center;
+  padding-inline: 20px;
+    padding-inline: 10px;
+    
+    grid-template-rows: 2 max-content;
 }
 
 footer {
